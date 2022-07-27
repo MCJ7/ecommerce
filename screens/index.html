@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="../img/logo-tab.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/sale-card.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/searchProduct.css">
+
+        <link
+        rel="stylesheet"
+        href="../fontawesome-free-6.0.0-web/css/all.min.css"
+        />
+            <script src="../js/components/header.js" type="text/javascript" defer></script>
+    <script src="../js/components/footer.js" type="text/javascript" defer></script>
+    </head>
+    <body>
+        <!-- //  json-server --watch db.json -->
+            <header class="header" id="top">
+        <nav>
+        <ul>
+            <li><a href="./index.html"><img src="../img/logo.png" class="logo"></img></a></li>
+            <li>
+                <form id="form-login"method="GET" role="search" >
+                <input type="search" name="filter" placeholder='Ingrese el producto' role="combobox" id="search"  autocomplete="off"><button  type="submit" class="fa-solid fa-magnifying-glass" id="search-button"></button>
+                </form>
+            </li>
+            <li> <a id="login-button" class="login"href="./Login.html">Login</a></li>
+            <li><div data-search></div></li>
+        </ul>
+    </nav>
+</header><main data-product>
+          <section class="first-view">
+            <div class="banner-text">
+                  <h1 class="banner-title">Abril Promocional</h1>
+                  <!-- <p class></p> -->
+                  <h3 class="banner-subtitle">Productos seleccionados con 33% de descuento</h3>
+                  <a href="sale.html"><button class="to-main-sale">Ver</button></a> 
+            </div>
+          </section>
+    </main>
+        <footer-component></footer-component>
+        <script type="module" src="../js/components/filter.js"></script>
+        <!-- <script src="../js/components/products-Manage.js"></script> -->
+        <script type="module" src="../js/components/showProduct.js" ></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.option{
+    color: rgb(253, 251, 255);
+    font-size: 1.5rem;
+}
+/* .optionsList{ */
+    /* position: relative; */
+    /* display: inline-block; */
+/* } */
+[data-search]{
+    position: relative;
+    width: 20%;
+    left: 0rem;
+    /* bottom: 10rem; */
+    background-color: #2e2e2e;
+    z-index: 5;
+
+}
+.list-search{
+    /* position: absolute; */
+    margin-right: 25rem;
+    background-color: #000000;
+    top: 3rem;
+}

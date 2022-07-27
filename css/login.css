@@ -1,0 +1,82 @@
+body{
+    height: 100%;
+}
+.login-card{
+    background-color: rgb(243, 243, 243);
+    width: 42%;
+    font-size: 1.4vw;
+    text-align: center;
+    margin: 12rem auto;
+    border-radius: 7px;
+}
+.login-title{
+    margin: 0.2vw 1vw 1vw 0;
+    padding-top:1vw;
+}
+#login-button-entry,#login-button-send{
+    width: 90%;
+    background-color: rgb(23, 151, 184);
+    border-style: solid;
+    color: azure;
+    border-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    height: 3.5vw;
+    margin:0.1vw 0 0.5vw 0;
+}
+#login-button-record{
+    width: 45%;
+    background-color: rgb(189, 117, 9);
+    border-radius: 7px;
+    height: 3.5vw;
+    margin: 0.1vw 0 0.5vw 0;
+}
+#login-button-recuperate{
+    width: 45%;
+    background-color: rgb(197, 180, 26);
+    border-radius: 7px;
+    height: 3.5vw;
+    margin: 0.1vw 0 0.5vw 0;
+}
+#login-button-entry:hover{
+    box-shadow: 0px 0.5px 20px rgb(242, 243, 243);
+}
+.logout{
+    width: 45%;
+    background-color: rgb(35, 148, 82);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: aliceblue;
+    border-radius: 7px;
+    height: 3.5vw;
+    margin: 0.1vw 0 1.2vw 0;
+
+}
+#login-pass,#login-email,#recuperate-email{
+    width: 90%;
+    margin: 0.1vw 0 0.5vw 0;
+    height: 2.5vw;
+    border-radius: 7px;
+}
+.login-card{
+    box-shadow: 0px 0.5px 20px rgb(242, 243, 243);
+    position:absolute;
+    top: 5vw;
+    left: 30vw;
+}
+.login-background{
+    background-image: url("../img/tshirt/greg-rosenke-hWdzH8YY8kk-unsplash.jpg");
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 44.7vw;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:initial;
+
+} 
+.invisible{ 
+    display: none;
+} 
+.error-input{
+    border-color: rgb(255, 0, 0);
+}

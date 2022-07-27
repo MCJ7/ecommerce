@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="icon" type="image/x-icon" href="../img/logo-tab.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/sale-card.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/upload.css">
+    <link
+        rel="stylesheet"
+        href="../fontawesome-free-6.0.0-web/css/all.min.css"
+        />
+            <script src="../js/components/header.js" type="text/javascript" defer></script>
+    <script src="../js/components/footer.js" type="text/javascript" defer></script>
+</head>
+<body>
+     <header-component></header-component>
+    <main>
+        
+        <section class="add-product">
+         <h1>Agregar nuevo producto</h1>
+        <form data-form>
+            <div class="add-product-drag-drop">
+                <span class="fas fa-file-image" id="add-product-img" for="myFile"></span>
+                <span  id="add-product-text" for="myFile">Arrastre aquí la imagen del producto</span>
+                <input type="file" id="myFile" name="filename" accept="image/jpg, image/jpeg, image/png" data-img>
+                
+            </div>
+            <div class="input-field">
+                <span class="placerholder">Seleccione el producto</span>
+                <select name="product" id="add-producto-name"  data-product>
+                    <option value="tshirts">Remera</option>
+                    <option value="pants">Pantalón</option>
+                    <option value="sneakers">Zapatillas</option>
+                </select>
+            </div>
+            <div class="input-field">
+                <input type="text" id="add-producto-name" data-label>
+                <span class="placerholder">Nombre del producto</span>
+            </div>
+            <div class="input-field">
+                <input type="text" id="add-producto-price" data-price>
+                <span class="placerholder">Precio del producto</span>
+            </div>
+            <div class="input-field">
+                <textarea type="text" id="add-producto-description" data-description></textarea> 
+                <span class="placerholder" id="placeholder-description">Descripción del producto</span>
+            </div>
+
+            <input type="submit" id="submit">
+        </form> 
+        </section>
+    </main>
+        <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+      integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="module" src="../js/components/uploadFile.js"></script>
+    <footer-component></footer-component>
+</body>
+</html>

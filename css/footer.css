@@ -1,0 +1,14 @@
+.footer {
+    background-color: #1f413c;
+    font-size: 1vw;
+    bottom: 0px;
+    width: 100%;
+    padding: 0.5vw 0 0.5vw 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+}
+.email{
+    color: rgb(26, 23, 23);
+}

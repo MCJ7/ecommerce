@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dolphin</title>
+     <link rel="icon" type="image/x-icon" href="../img/logo-tab.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.0.0-web/css/all.min.css"/>
+   <script src="../js/components/header.js" type="text/javascript" defer></script>
+    <script src="../js/components/footer.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+       <header-component></header-component>
+    <main class="container flex flex--center flex--column">
+      <section class="card cadastro">
+        <h1 class="card__title">Registrar un producto</h1>
+        <form action="#" class="flex flex--column">
+          <div class="input-container">
+            <input
+              name="nombre"
+              id="nombre"
+              class="input"
+              type="text"
+              placeholder="nombre"
+            />
+            <label class="input-label" for="nombre">nombre</label>
+            <span class="input-menssage-error">Error</span>
+          </div>
+          <div class="input-price">
+            <input
+              name="price"
+              id="price"
+              class="input"
+              type="text"
+              placeholder="Precio"
+            />
+            <label class="input-label" for="precio">Precio</label>
+            <span class="input-menssage-error">Error</span>
+          </div>
+          <div
+            class="
+              textarea-container textarea-container--invalido
+              register_description-container
+            "
+          >
+            <textarea
+              class="textarea register_description"
+              name="description"
+              id="description"
+              placeholder="Descripcion"
+            ></textarea>
+            <label class="textarea-label" for="description">Descripcion</label>
+            <span class="textarea-menssage-error">Error</span>
+          </div>
+          <a href="./registro_completado.html" class="button"
+            >Registrar producto</a
+          >
+        </form>
+      </section>
+    </main>
+    <footer-component></footer-component>
+  </body>
+</html>

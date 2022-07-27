@@ -1,0 +1,28 @@
+.card{
+    width: 25%;
+    margin:1vw 20vw 1vw 37rem;
+    padding: 1vw;
+    text-align: center;
+    letter-spacing: 0.6rem;
+    background-color: rgba(245, 248, 250, 0.63);
+
+}
+.card-title{
+    font-size: 3rem;
+    margin: 0;
+}
+.card-img{
+    width: 15rem;
+    height:15rem;
+}
+.card-label{
+    font-size: 2rem;
+    margin:0;
+}
+.card-detail{
+    font-size: 1.5rem;
+    margin: 0;
+}
+.card-price{
+    font-size: 3rem;
+}

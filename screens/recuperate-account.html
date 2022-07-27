@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dolphin</title>
+    <link rel="icon" type="image/x-icon" href="../img/logo-tab.png" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link
+      rel="stylesheet"
+      href="../fontawesome-free-6.0.0-web/css/all.min.css"
+    />
+    <script
+      src="../js/components/header.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script
+      src="../js/components/footer.js"
+      type="text/javascript"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header-component></header-component>
+    <img
+      src="../img/tshirt/greg-rosenke-hWdzH8YY8kk-unsplash.jpg"
+      alt=""
+      class="login-background"
+    />
+    <!-- <div class="login-background"></div> -->
+    <main>
+      <section class="login-card">
+        <h3 class="login-title">Escribe tu email para recuperar la cuenta</h3>
+        <form data-form>
+          <label for="login-email">Email</label><br />
+          <input
+            type="email"
+            placeholder="Escriba su email"
+            id="recuperate-email"
+            autocomplete="off"
+            required
+            data-email
+          /><br />
+          <p class="empty-email-message"></p>
+          <p class="invalid-email-message"></p>
+          <button type="submit" id="login-button-send">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer-component></footer-component>
+    <script
+      type="module"
+      src="../controllers/search-by-email-controller.js"
+    ></script>
+  </body>
+</html>
